@@ -13,7 +13,7 @@
 
 /*hero section*/
 
-.hero-section {
+/* .hero-section {
   position: relative;
   background: #2e2f42;
   padding-top: 188px;
@@ -66,11 +66,11 @@
 .button-hero-section:hover,
 .button-hero-section:focus {
   background-color: #404bbf;
-  }
+  } */
 
 /*features*/
 
-.features-section {
+/* .features-section {
 }
 
 .features-div-icon {
@@ -85,8 +85,6 @@
   margin-bottom: 8px
 }
 
-.features-icon {
-}
 
 .visually-hidden {
   position: absolute;
@@ -125,7 +123,7 @@
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-}
+} */
 
 /*team*/
 
@@ -190,13 +188,9 @@
   gap: 24px;
   margin-top: 8px;
     justify-content: center;
-  
-  
-}
+  }
 
 .team-social-list-item {
-  /* width: calc((100% - 3 * 24px) / 4); */
-
   width: 40px;
 }
 
