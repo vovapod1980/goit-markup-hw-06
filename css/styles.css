@@ -248,12 +248,13 @@ button {
 }
 
 .mobile-menu-close {
-  position: absolute;
+   position: absolute;
   top: 24px;
   right: 24px;
 }
 
 .mobile-menu-nav {
+  
   margin-bottom: auto;
 }
 
@@ -1135,7 +1136,7 @@ align-items: center;
 .backdrop.is-open {
   opacity: 1;
   user-select: none;
-   visibility: visible;
+   visibility: hidden;
    pointer-events: auto; 
 } 
 
