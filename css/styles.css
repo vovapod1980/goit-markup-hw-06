@@ -172,7 +172,7 @@ button {
   .header-address-list {
     display: flex;
     flex-direction: column;
-    gap: 24px;
+    gap: 12px;
   }
 
   .header-adress-link {
@@ -262,7 +262,7 @@ button {
   display: flex;
   flex-direction: column;
   gap: 40px;
-  }
+   }
 
 
 .mobile-nav-link {
@@ -270,8 +270,12 @@ button {
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
+    color: #2E2F42;
     }
 
+    .mobile-nav-link-ocean {
+      color: #404BBF;
+    }
 
 
 @media screen and (min-width: 768px) {
@@ -284,6 +288,29 @@ button {
   margin-bottom: 48px;
 }
 
+.mobile-address-list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.mobile-adress-link-phone {
+  font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #4D5AE5;
+    font-style: normal;
+}
+
+.mobile-adress-link-mail {
+  font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #434455;
+    font-style: normal;
+}
 /*hero section*/
 
 .hero-section {
@@ -434,6 +461,7 @@ button {
 
 .features-div-icon {
   display: none;
+}
  
 
 .features-list {
@@ -1162,7 +1190,7 @@ align-items: center;
 .backdrop.is-open {
   opacity: 1;
   user-select: none;
-   visibility: hidden;
+   visibility: visible;
    pointer-events: auto; 
 } 
 
